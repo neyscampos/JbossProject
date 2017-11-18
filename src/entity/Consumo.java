@@ -42,8 +42,6 @@ public class Consumo implements Serializable {
 		this.nomeProduto = nomeProduto;
 		this.preco = preco;
 		this.quantidade = quantidade;
-		this.subtotal = subtotal;
-		this.consumidor = consumidor;
 	}
 
 	@Override

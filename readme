@@ -1,0 +1,38 @@
+Ativar o jboss
+Window -> Preferences -> Server -> RunTime -> Seta Jboss
+Na paleta Server adiciono servidor JBoss
+
+Acessar no endereço
+http://localhost:9990/console/App.html
+
+mysql 5.1.6 para jboss
+mysql 5.1.23 para Tomcat
+
+jndi incluir o conector
+java:/jdbc/bar
+
+connection url
+jdbc:mysql://localhost:3306/{nomedobanco}?createDatabaseIfNotExist=true
+
+
+Tipo EJB as classes precisam ser serializadas
+
+
+persistence jpa 
+beans cdi injeção de dependencia;
+
+
+JPA é um framework leve, baseado em POJOS (Plain Old Java Objects) para persistir objetos Java. A Java Persistence API, diferente do que muitos imaginam, não é apenas um framework para Mapeamento Objeto-Relacional (ORM - Object-Relational Mapping), ela também oferece diversas funcionalidades essenciais em qualquer aplicação corporativa.
+
+JSP é o acrônimo para Java Server Pages, uma linguagem criada pela SUN gratuita, JSP é uma linguagem de script com especificação aberta que tem como objetivo primário a geração de conteúdo dinâmico para páginas da Internet. Podemos ao invés de utilizar HTML para desenvolver páginas Web estáticas e sem funcionalidade, utilizar o JSP para criar dinamismo. É possível escrever HTML com códigos JSP embutidos. Como o HTML é uma linguagem estática, o JSP será o responsável por criar dinamismo. Por ser gratuita e possuir especificação aberta possui diversos servidores que suportam a linguagem, entre eles temos: Tomcat, GlassFish, JBoss, entre outros. O JSP necessita de servidor para funcionar por ser uma linguagem Server-side script, o usuário não consegue ver a codificação JSP, pois esta é convertida diretamente pelo servidor, sendo apresentado ao usuário apenas codificação HTML.
+
+ <% String mensagem = "Bem vindo ao sistema de agenda do FJ-21!"; %>
+    <% out.println(mensagem); %>
+    <br />
+
+
+JSF, No mundo Java há algumas opções como JavaServer Faces, Apache Wicket, Vaadin, Tapestry ou GWT da Google. Todos eles são frameworks web baseados em componentes.
+
+https://www.caelum.com.br/apostila-java-testes-jsf-web-services-design-patterns/introducao-ao-jsf-e-primefaces/#7-2-caracteristicas-do-jsf
+
+
