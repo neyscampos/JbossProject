@@ -13,7 +13,7 @@ import entity.Consumidor;
 @Dependent
 public class ConsumidorDao {
 
-	@PersistenceContext(unitName = "JbossProject")
+	@PersistenceContext(unitName = "JbossProject") //pego no persistence.xml
 	EntityManager em;
 
 	public void create(Consumidor c) {
